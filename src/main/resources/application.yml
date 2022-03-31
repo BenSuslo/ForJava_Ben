@@ -1,0 +1,33 @@
+server:
+  port: 8090
+  servlet:
+    session:
+      timeout: 720m
+
+spring:
+  datasource:
+    username: root
+    password: 1234
+    url: jdbc:mysql://localhost:3306/springboot?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  # rabbitmq
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    cache: false
+    content-type: text/html
+    mode: LEGACYHTML5
+
+#mybatis:
+#  mapper-locations: classpath:mapping
+#
+#mq:
+#  message:
+#    exchange: mes.exchange
+#    queue: mes.queue
