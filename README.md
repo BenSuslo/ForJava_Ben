@@ -26,4 +26,4 @@
 3. 利用RMI来构建服务端和客户端，实现远程服务调用功能来获取当前时间并插入文档中。
 
 本项目源代码下载地址：
-[BenSuslo/ForJava_Ben at online_document_MW
+BenSuslo/ForJava_Ben at online_document_MW
